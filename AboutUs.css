@@ -1,0 +1,95 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first{
+    text-align: left;
+    color: rgb(58, 51, 150);
+    margin-top: 43px;
+
+}
+.flex{
+    display: flex;
+}
+.second{
+    text-align: left;
+    color: rgb(58, 51, 150);
+
+}
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    color: rgb(235, 87, 87);
+    margin: 0;
+    font-size: 100px;
+   text-transform: uppercase;
+
+}
+.center{
+    margin: 2% 0 0 20%;
+}
+body {
+    background-image: url("./back4.jpg");
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    color: #333;
+    line-height: 1.6;
+    background-size: cover;
+}
+
+header {
+    background-color:white;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.center{
+    margin: 2% 0 0 20%;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color:black;
+    text-decoration: none;
+}
+h1{
+    color: black;
+}
+section {
+    padding: 50px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
